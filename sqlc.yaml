@@ -9,7 +9,7 @@ sql:
     engine: "postgresql"
     gen:
       go:
-        package: authors
+        package: db
         out: "./db/sqlc/"
 overrides:
   go: null
